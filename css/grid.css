@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     box-sizing: border-box;
     overflow: auto;
 }
@@ -70,7 +70,7 @@ body {
         font-size: 1.8em;
     }
     .navbar {
-        background-color: cornflowerblue;
+        background-color: rgb(100, 237, 182);
     }
     .navbar ul li{
         font-size: 1.25em;

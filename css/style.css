@@ -3,8 +3,8 @@
 /* reset */
 * {
     /* estilos genericos */
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Lato', sans-serif;
@@ -17,8 +17,8 @@ a {
 /* Estilos generales */
 /* Fuente local */
 @font-face {
-    font-family: "Nadilla";
-    src: url("../fonts/Nadilla.otf");
+    font-family: "Fester Bold";
+    src: url("../fonts/Fester\ Bold.otf");
 }
 
 header {
@@ -37,7 +37,7 @@ header {
 
 /* Aplicando fuente */
 header h1 {
-    font-family: "Nadilla", serif;
+    font-family: "Fester Bold", serif;
 }
 
 .cabecera {
@@ -47,7 +47,7 @@ header h1 {
 .navbar {
     background-color: #0e0e0e;
     display: flex;
-    height: 50px;
+    height: 55px;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
@@ -60,7 +60,7 @@ header h1 {
 .navbar ul {
     width: 50%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: flex-end;
     height: 100%;
 }
@@ -152,10 +152,10 @@ header h1 {
 }
 
 .content-info {
-    background-color: rgb(156, 196, 247);
+    background-color: rgb(227, 236, 169);
     width: 600px;
     height: 400px;
-    overflow: scroll;
+    overflow: auto;
     /* margin-top: 20px;
     margin-left: 15px;
     margin-right: 30px;
@@ -171,7 +171,7 @@ header h1 {
 
 
 .footer-container {
-    height: 90px;
+    height: 95px;
     padding: 20px 5px;
     background-color: #dc653d;
     display: grid;
@@ -424,7 +424,7 @@ background-color: rgb(0, 255, 213);
 }
 
 .info--destacado{
-background-color: rgba(111, 34, 15, 0.537);
+background-color: rgba(189, 48, 13, 0.537);
 }
 
 
@@ -442,8 +442,8 @@ background-color: rgba(111, 34, 15, 0.537);
             background-color: #fff;
             color: #333;
             font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
-            padding: 0;
-            margin: 0;
+            padding: 1;
+            margin: 1;
         }
 
         .container {
